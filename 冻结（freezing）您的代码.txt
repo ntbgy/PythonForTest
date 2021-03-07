@@ -1,0 +1,5 @@
+“冻结”您的代码是指创建单个可执行文件，以分发给包含所有程序代码以及Python解释器的终端用户。
+
+pip install pyinstaller
+pyinstaller -F -w 测试用例附件生成器.py
+dist/测试用例附件生成器.exe
